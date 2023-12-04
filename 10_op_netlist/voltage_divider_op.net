@@ -1,0 +1,10 @@
+* Basic voltage divider op
+
+Vs     n1   0  10;  10 V
+R1     n1  n2  10K; 10 Ohm
+R2     n2   0  10K; 10 Ohm
+
+* DC analysis / Operational Point
+.op
+
+.end
